@@ -83,13 +83,18 @@
         display: flex;
         font-size: 12px;
       }
+
+      .move {
+        text-decoration: none;
+        color: #222;
+      }
     </style>
     <title>로그인창</title>
   </head>
   <body>
     <main class="body">
       <h2 class="easyweniv">더 편리해진 위니브에 오신 것을 환영합니다.</h2>
-      <a href="#none" alt="로그인버튼">
+      <a href="#none" alt="로그인버튼" class="move">
         <div class="loginbox">
           <img src="./img/weniv-logo.png" alt="위니브 로고" class="loginlogo" />
           <p class="logintext">로그인</p>
@@ -102,13 +107,13 @@
           class="lockicon"
         />
         <ul class="idpwtext">
-          <li>아이디&nbsp;</li>
+          <li><a href="#none" class="move">아이디&nbsp;</a></li>
           |&nbsp;
-          <li>비밀번호 찾기</li>
+          <li><a href="#none" class="move">비밀번호 찾기</a></li>
         </ul>
         <img src="./img/icon-user.png" alt="사람모양 아이콘" class="usericon" />
         <ul class="usertext">
-          <li><a href="#none">회원가입</a></li>
+          <li><a href="#none" class="move">회원가입</a></li>
         </ul>
       </div>
     </main>
