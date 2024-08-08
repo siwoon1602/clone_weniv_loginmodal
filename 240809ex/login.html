@@ -3,26 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css"
+    />
     <style>
       /*     
     CSS Reset(초기화) : 
     태그들이 가지고 있는 기본 속성과 값을
     코딩하기 편한 값으로 변경 */
-
-      body,
-      h1,
-      h2,
-      h3,
-      div,
-      p,
-      ul,
-      li,
-      dl,
-      dt,
-      dd {
-        margin: 0;
-        padding: 0;
-      }
 
       .body {
         width: 350px;
@@ -64,13 +53,35 @@
         position: absolute;
       }
 
+      .idpw {
+        display: flex;
+      }
       .lockicon {
         width: 16px;
         height: 16px;
+        margin: 20px 0 0 15px;
       }
 
-      .idpw {
-        position: fixed;
+      .idpwtext {
+        margin: 23px 0 0 5px;
+        display: flex;
+        font-size: 12px;
+      }
+      .newuser {
+        display: flex;
+        position: absolute;
+      }
+
+      .usericon {
+        width: 16px;
+        height: 16px;
+        margin: 20px 0 0 100px;
+      }
+
+      .usertext {
+        margin: 22px 0 0 3px;
+        display: flex;
+        font-size: 12px;
       }
     </style>
     <title>로그인창</title>
@@ -88,6 +99,15 @@
           alt="자물쇠모양아이콘"
           class="lockicon"
         />
+        <ul class="idpwtext">
+          <li>아이디&nbsp;</li>
+          |&nbsp;
+          <li>비밀번호 찾기</li>
+        </ul>
+        <img src="./img/icon-user.png" alt="사람모양 아이콘" class="usericon" />
+        <ul class="usertext">
+          <li>회원가입</li>
+        </ul>
       </div>
     </main>
   </body>
