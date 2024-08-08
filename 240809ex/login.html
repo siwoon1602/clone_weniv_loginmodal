@@ -56,6 +56,10 @@
       .idpw {
         display: flex;
       }
+      .bar:after {
+        content: "|";
+        margin: 0 5px;
+      }
       .lockicon {
         width: 16px;
         height: 16px;
@@ -107,8 +111,7 @@
           class="lockicon"
         />
         <ul class="idpwtext">
-          <li><a href="#none" class="move">아이디&nbsp;</a></li>
-          |&nbsp;
+          <li class="bar"><a href="#none" class="move">아이디</a></li>
           <li><a href="#none" class="move">비밀번호 찾기</a></li>
         </ul>
         <img src="./img/icon-user.png" alt="사람모양 아이콘" class="usericon" />
