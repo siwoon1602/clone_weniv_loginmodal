@@ -9,6 +9,7 @@
         padding: 20px;
         display: inline-block;
       }
+
       span:first-child {
         background-color: red;
         border: 15px solid black;
@@ -37,13 +38,17 @@
       }
       span:nth-child(6) {
         background-color: blue;
-        color: black;
+        color: white;
         font-weight: 700;
       }
       span:last-child {
         background-color: purple;
         border: 15px solid black;
         font-weight: 700;
+      }
+
+      span :nth-child(2n-1) {
+        color: black;
       }
 
       li::after {
@@ -67,6 +72,10 @@
 
       li:not(:first-child) {
         font-weight: 700;
+      }
+
+      li:last-child::after {
+        content: "멘토님";
       }
     </style>
   </head>
