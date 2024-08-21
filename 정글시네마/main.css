@@ -135,7 +135,7 @@ article {
   width: 220px;
   height: 441px;
   gap: 20px 10px;
-  margin: 40px 0 0 40px;
+  margin: 20px 0 0 40px;
 }
 
 .griditem01,
@@ -180,9 +180,6 @@ article {
   font-weight: 400px;
   font-family: "Noto Sans KR", sans-serif;
   margin-right: 20px;
-}
-
-.button {
 }
 
 .booking,
