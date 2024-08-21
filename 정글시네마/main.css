@@ -185,7 +185,12 @@ article {
   font-family: "Noto Sans KR", sans-serif;
   margin-right: 20px;
 }
-
+article img {
+  margin: 19px 0 0 20px;
+  border: 1px solid #bdbdbd;
+  border-radius: 10px;
+  box-shadow: 0 4px 4px #000000 0.2;
+}
 .booking,
 .notice {
   width: 100px;
@@ -196,5 +201,6 @@ article {
 }
 
 .contenttext {
+  margin: 30px;
   margin-left: 20px;
 }
