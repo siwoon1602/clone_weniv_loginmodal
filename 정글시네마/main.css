@@ -50,6 +50,10 @@
   font-family: "Roboto", sans-serif;
 }
 
+.bt:hover {
+  font-weight: 900;
+}
+
 .main {
   width: 1003px;
   height: 962px;
