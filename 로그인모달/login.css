@@ -1,0 +1,105 @@
+@font-face {
+  font-family: "SpoqaHanSansNeo-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Regular.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --sub--color: #767676;
+  --main--color: #000000;
+}
+
+a {
+  text-decoration: none;
+  color: var(--sub--color);
+}
+body {
+  font-family: "SpoqaHanSansNeo-Regular";
+}
+.mainbox {
+  width: 350px;
+  height: 140px;
+  margin: 20px auto;
+  background-color: white;
+  border: 1px solid var(--main--color);
+  border-radius: 5px;
+  position: relative;
+}
+
+.easyweniv {
+  font-family: "SpoqaHanSansNeo-Regular";
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 16px;
+  top: 19px;
+  margin-bottom: 16px;
+}
+
+.loginbutton {
+  width: 318px;
+  height: 40px;
+  background-color: #711bff;
+  border: none;
+  border-radius: 4px;
+  position: absolute;
+  top: 50px;
+  left: 16px;
+  color: white;
+  font-family: "SpoqaHanSansNeo-Regular";
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.loginlogo {
+  width: 64px;
+  height: 18px;
+  margin-left: 108px;
+}
+
+.idpw {
+  width: auto;
+  height: 16px;
+  display: flex;
+  position: absolute;
+  left: 16px;
+  top: 106px;
+  align-content: center;
+}
+
+.idpwtext {
+  display: flex;
+  font-size: 12px;
+  line-height: 15.02px;
+}
+
+.idpwtext li:first-child::after {
+  content: "|";
+  margin: 0 4px;
+  color: var(--sub--color);
+}
+
+.join {
+  width: auto;
+  height: 16px;
+  display: flex;
+  position: absolute;
+  left: 269px;
+  top: 106px;
+  align-content: center;
+}
+
+.join {
+  display: flex;
+  font-size: 12px;
+  line-height: 15.02px;
+}
+
+.usericon,
+.lockicon {
+  margin-right: 4px;
+}
