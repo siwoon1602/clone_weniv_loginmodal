@@ -11,17 +11,12 @@
   --main--color: #000000;
 }
 
-a {
-  text-decoration: none;
-  color: var(--sub--color);
-}
-
 .mainbox {
   width: 350px;
   height: 140px;
   margin: 20px auto;
   background-color: white;
-  border: 1px solid var(--main--color);
+  border: 1px solid #bdbdbd;
   border-radius: 5px;
   position: relative;
 }
@@ -30,10 +25,7 @@ a {
   font-family: "SpoqaHanSansNeo-Regular";
   font-size: 12px;
   font-weight: 400;
-  position: absolute;
-  left: 16px;
-  top: 19px;
-  margin-bottom: 16px;
+  margin: 19px 0 16px 16px;
 }
 
 .loginbutton {
@@ -41,36 +33,44 @@ a {
   height: 40px;
   background-color: #711bff;
   border: none;
+  display: block;
   border-radius: 4px;
-  position: absolute;
-  top: 50px;
-  left: 16px;
+  font-size: 12px;
+  margin: 0 0 16px 16px;
+}
+
+.login_text {
+  display: flex;
+  align-items: end;
+}
+.login_text p {
   color: white;
   font-family: "SpoqaHanSansNeo-Regular";
-  display: flex;
-  align-items: center;
-  text-decoration: none;
   font-size: 12px;
+  line-height: 15.02px;
 }
 
 .loginlogo {
   width: 64px;
   height: 18px;
-  margin-left: 108px;
+  margin: 11px 4px 0 108px;
 }
 
-.idpw {
-  width: auto;
-  height: 16px;
+.userinterface {
+  width: 318px;
   display: flex;
-  position: absolute;
-  left: 16px;
-  top: 106px;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 16px;
+}
+.idpw {
+  display: flex;
   align-content: center;
 }
 
 .idpwtext {
   display: flex;
+  align-items: end;
   font-size: 12px;
   line-height: 15.02px;
 }
@@ -82,13 +82,8 @@ a {
 }
 
 .join {
-  width: auto;
-  height: 16px;
   display: flex;
-  position: absolute;
-  left: 269px;
-  top: 106px;
-  align-content: center;
+  align-content: end;
 }
 
 .join {
@@ -99,5 +94,7 @@ a {
 
 .usericon,
 .lockicon {
+  width: 16px;
+  height: 16px;
   margin-right: 4px;
 }
